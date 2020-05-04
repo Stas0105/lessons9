@@ -1,0 +1,28 @@
+.modal {
+    display: none;
+    position: absolute;
+    left: 40%;
+    top: 200px;
+    width: 20%;
+    height: 200px;
+    background-color: grey;
+    border: indigo solid;
+    padding-left: 100px;
+}
+.modal-content {
+    background-color: mediumpurple;
+    border: 1px solid;
+    display:flex;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: lawngreen;
+    font-size: 20px;
+}
+.close{
+    float: right;
+    margin: 0;
+}
